@@ -41,7 +41,7 @@ attribute 'newrelic/aws_cloudwatch/install_path',
   :display_name => 'New Relic AWS Cloudwatch Plugin Install Path',
   :description => 'Install Path for New Relic AWS Cloudwatch Plugin',
   :type => 'string',
-  :required => 'required',
+  :required => 'optional',
   :default => '/opt/newrelic',
   :recipes => ['newrelic_plugins::aws_cloudwatch']
 
@@ -84,7 +84,7 @@ attribute 'newrelic/example/install_path',
   :display_name => 'New Relic Example Plugin Install Directory',
   :description => 'Install Directory for New Relic Example Plugin',
   :type => 'string',
-  :required => 'required',
+  :required => 'optional',
   :default => '/opt/newrelic',
   :recipes => ['newrelic_plugins::example']
 
@@ -99,7 +99,7 @@ attribute 'newrelic/f5/install_path',
   :display_name => 'New Relic F5 Plugin Install Directory',
   :description => 'Install Directory for New Relic F5 Plugin',
   :type => 'string',
-  :required => 'required',
+  :required => 'optional',
   :default => '/opt/newrelic',
   :recipes => ['newrelic_plugins::f5']
 
@@ -121,7 +121,7 @@ attribute 'newrelic/mysql/install_path',
   :display_name => 'New Relic MySQL Plugin Install Path',
   :description => 'Install Path for New Relic MySQL Plugin',
   :type => 'string',
-  :required => 'required',
+  :required => 'optional',
   :default => '/opt/newrelic',
   :recipes => ['newrelic_plugins::mysql']
 
@@ -179,7 +179,7 @@ attribute 'newrelic/memcached_ruby/install_path',
   :display_name => 'New Relic Memcached Ruby Plugin Install Path',
   :description => 'Install Path for New Relic Memcached Ruby Plugin',
   :type => 'string',
-  :required => 'required',
+  :required => 'optional',
   :default => '/opt/newrelic',
   :recipes => ['newrelic_plugins::memcached_ruby']
 
@@ -201,7 +201,7 @@ attribute 'newrelic/rackspace_load_balancers/install_path',
   :display_name => 'New Relic Rackspace Load Balancers Plugin Install Path',
   :description => 'Install Path for Rackspace Load Balancers Plugin',
   :type => 'string',
-  :required => 'required',
+  :required => 'optional',
   :default => '/opt/newrelic',
   :recipes => ['newrelic_plugins::rackspace_load_balancers']
 
@@ -237,7 +237,7 @@ attribute 'newrelic/wikipedia_example_java/install_path',
   :display_name => 'New Relic Wikipedia Example Java Plugin Install Path',
   :description => 'Install Path for New Relic Wikipedia Example Java Plugin',
   :type => 'string',
-  :required => 'required',
+  :required => 'optional',
   :default => '/opt/newrelic',
   :recipes => ['newrelic_plugins::wikipedia_example_java']
 
@@ -252,7 +252,7 @@ attribute 'newrelic/wikipedia_example_ruby/install_path',
   :display_name => 'New Relic Wikipedia Example Ruby Plugin Install Path',
   :description => 'Install Path for New Relic Wikipedia Example Ruby Plugin',
   :type => 'string',
-  :required => 'required',
+  :required => 'optional',
   :default => '/opt/newrelic',
   :recipes => ['newrelic_plugins::wikipedia_example_ruby']
 
