@@ -150,7 +150,7 @@ attribute 'newrelic/memcached_java/install_path',
   :display_name => 'New Relic Memcached Java Plugin Install Path',
   :description => 'Install Path for New Relic Memcached Java Plugin',
   :type => 'string',
-  :required => 'required',
+  :required => 'optional',
   :default => '/opt/newrelic',
   :recipes => ['newrelic_plugins::memcached_java']
 
